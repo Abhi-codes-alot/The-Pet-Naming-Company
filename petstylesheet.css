@@ -168,3 +168,21 @@
   padding-bottom: 10px;
   border-radius: 20px;
 }
+#welcome {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  font-size: 100px;
+  width: 400px;
+  height: 400px;
+}
+#whatwe {
+  background-color: #ef959d;
+  margin: 20px;
+  border: #ffffff 4px solid;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}

@@ -1,5 +1,5 @@
 #head {
-  background-color: #448d9d;
+  background-color: #00cbcb;
   text-align: left;
   padding: 10px;
   padding-left: 20px;
@@ -116,7 +116,7 @@
   }
 }
 .bod {
-  margin: auto;
+  margin: 30px;
   width: 100%;
   text-align: center;
 }
@@ -133,7 +133,7 @@
   transition: opacity 0.5s ease;
 }
 #footspan {
-  background-color: #448d9d;
+  background-color: #00cbcb;
   font-family: "Just Another Hand", serif;
   text-align: center;
   padding: 10px;
@@ -172,7 +172,7 @@
   height: 400px;
 }
 #whatwe {
-  background-color: #448d9d;
+  background-color: #00cbcb;
   margin: 20px;
   border: #ffffff 4px solid;
   padding: 15px;
@@ -194,7 +194,7 @@
   }
 }
 .preloader {
-  background-color: #448d9d;
+  background-color: #00cbcb;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -252,7 +252,7 @@
   border-radius: 20px;
   background-color: white;
   color: #60656f;
-  animation: stepc alternate 2s infinite;
+  animation: stepc alternate 1s infinite;
 }
 @keyframes stepc {
   from {

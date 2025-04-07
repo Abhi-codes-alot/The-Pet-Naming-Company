@@ -165,11 +165,12 @@
   display: inline-block;
   text-align: left;
   padding: 10px;
-  margin: 20px;
+  margin: 15px;
   color: white;
   font-size: 100px;
   width: 400px;
   height: 400px;
+  padding-left: 2%;
 }
 #whatwe {
   background-color: #00cbcb;
@@ -203,7 +204,7 @@
   width: 100%;
   height: 100vh;
   z-index: 9999;
-  animation: holdThenFade 2s ease-in-out forwards;
+  animation: holdThenFade 2.3s ease-in-out forwards;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,5 +263,43 @@
   to {
     background-color: #5c6269;
     color: white;
+  }
+}
+#doggo {
+  position: sticky;
+  width: 25%;
+  border: #00cbcb 5px solid;
+  border-radius: 20px;
+  float: right;
+  margin: 70px;
+  left: 60%;
+  z-index: -3;
+}
+#datto {
+  position: sticky;
+  width: 15%;
+  border-radius: 20px;
+  float: right;
+  margin-left: 80px;
+  z-index: -2;
+  left: 79%;
+  bottom: 63%;
+}
+#dattot {
+  position: sticky;
+  z-index: 2;
+  font-size: 50px;
+  float: right;
+  right: 10%;
+  bottom: 75%;
+  animation: go alternate 1s infinite ease-in-out;
+  color: #000000;
+}
+@keyframes go {
+  from {
+    color: #000000;
+  }
+  to {
+    color: #ffffff;
   }
 }

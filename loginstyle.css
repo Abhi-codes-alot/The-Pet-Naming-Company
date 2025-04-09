@@ -324,3 +324,53 @@ a:hover {
 .backhomebtn:hover {
   background-position: right;
 }
+.preloader {
+  background-color: #00cbcb;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: lighten;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  animation: holdThenFade 2.3s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preloader h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: #000000;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 0;
+  animation: typing 5s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes holdThenFade {
+  0% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.preloader img {
+  opacity: 1;
+}

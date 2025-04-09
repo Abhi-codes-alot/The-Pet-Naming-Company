@@ -144,6 +144,7 @@
   background-color: #00cbcb;
   text-align: center;
   padding: 10px;
+  margin-top: 20px;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   border-top: solid #ffffff 4px;
@@ -296,9 +297,7 @@
   top: 20px;
   border-radius: 10px;
 }
-#submit {
-  display: block;
-  margin: auto;
+#button {
   position: relative;
   top: 35px;
   background-color: #ffffff;

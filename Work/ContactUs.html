@@ -36,7 +36,10 @@
     </div>
     <div style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px; height: 250px; width: 640px; border: solid #ffffff 4px;">
         <textarea id="feedback" rows="5" cols="50" placeholder="Let us know your thoughts..."></textarea>
-        <button id="submit" onclick="">Submit</button>
+        <div style="margin: auto;">
+            <input type="button" id="button" value="Submit" onclick="Submit()">
+            <input type="button" id="button" value="Clear" onclick="Clear()">
+        </div>
     </div>
 </body>
 <footer id="foot">
@@ -57,4 +60,5 @@
         </a>
     </div>
 </footer>
+<script src="Pet.js"></script>
 </html>

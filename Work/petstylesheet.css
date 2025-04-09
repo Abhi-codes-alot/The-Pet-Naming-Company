@@ -288,11 +288,11 @@
   display: block;
   margin: auto;
   resize: none;
-  background-color: #60656f;
-  border: solid #ffffff 4px;
+  background-color: #ffffff;
+  border: solid #60656f 4px;
   font-family: "Just Another Hand", serif;
   font-size: 1.2em;
-  color: #ffffff;
+  color: #60656f;
   position: relative;
   top: 20px;
   border-radius: 10px;
@@ -310,8 +310,9 @@
   border: none;
   cursor: pointer;
 }
-#submit:hover {
+#button:hover {
   background-color: #60656f;
   color: #ffffff;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.2);
 }

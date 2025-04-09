@@ -16,3 +16,11 @@ function Submit() {
 function Clear() {
     document.getElementById("feedback").value = "";
 }
+function TextHover() {
+    var element = document.getElementById("feedback");
+    element.style.backgroundColor = "#f0f0f0";
+}
+function TextUnhover() {
+    var element = document.getElementById("feedback");
+    element.style.backgroundColor = "#ffffff";
+}

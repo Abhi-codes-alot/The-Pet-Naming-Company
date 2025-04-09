@@ -144,8 +144,12 @@
   background-color: #00cbcb;
   text-align: center;
   padding: 10px;
+  margin-top: 20px;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
+  border-top: solid #ffffff 4px;
+  border-left: solid #ffffff 4px;
+  border-right: solid #ffffff 4px;
 }
 #content {
   margin: 10px;
@@ -279,4 +283,35 @@
 .icon:hover {
   background-color: #00cbcb;
   transform: scale(1.1);
+}
+#feedback {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #60656f;
+  border: solid #ffffff 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+}
+#button {
+  position: relative;
+  top: 35px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #60656f;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #60656f;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

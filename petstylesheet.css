@@ -148,18 +148,33 @@
   color: white;
 }
 #steps {
+  border-radius: 20px;
+  padding: 15px;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
-  color: white;
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 1.2em;
 }
 .step {
-  border: #ffffff 2px solid;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.1em;
+  color: #60656f;
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+.step:hover {
+  transform: scale(1.2);
+  background-color: #60656f;
+  color: #ffffff;
+}
+
 #welcome {
   display: inline-block;
   text-align: left;

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="petstylesheet.css">
+<link rel="stylesheet" href="petstylesheet2.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Just+Another+Hand">
 <title>Contact Us</title>
 <div style="background-color: #60656f; position: sticky; top: 0px; z-index: 1;padding:10px;padding-bottom:0px; ">
     <header id="head">
-        <a href="Landing.html" target="_blank" title="Home" style="text-decoration: none;">
+        <a href="index.html" target="_blank" title="Home" style="text-decoration: none;">
             <span id="headspan">
                 <b style="color: #ffffff;"> The Pet Naming Co.</b>
             </span>
@@ -20,22 +20,25 @@
     </header>
     <hr / style="border: 2px solid rgb(255, 255, 255); position : sticky; top: 0px; border-radius: 50px;">
 </div>
+
 <body id="body" style="text-align: center;">
     <h1 style="font-size: 3em; color: rgb(255, 255, 255); margin-bottom: 5px;">Contact Us</h1>
     <div>
-        <div style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px; height: 200px; width: 300px; border: solid #ffffff 4px;">
+        <div id="infobox">
             <h2 style="color: rgb(255, 255, 255);">Call Us!</h2>
-            <p style="color: rgb(255, 255, 255); font-size: 1.1em;">+1 (123) 456-7890</p>
-            <p style="color: rgb(255, 255, 255); font-size: 1.1em;">+1 (987) 654-3210</p>
+            <p style="color: rgb(255, 255, 255); font-size: 1.2em;">+91 123-456-7890</p>
+            <p style="color: rgb(255, 255, 255); font-size: 1.2em;">+91 987-654-3210</p>
         </div>
-        <div style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px; height: 200px; width: 300px; border: solid #ffffff 4px;">
+        <div id="infobox">
             <h2 style="color: rgb(255, 255, 255);">Email Us!</h2>
-            <p style="color: rgb(255, 255, 255); font-size: 1.1em;">petnamingco@gmail.com</p>
-            <p style="color: rgb(255, 255, 255); font-size: 1.1em;">petnamingco@Yahoo.com</p>
+            <p style="color: rgb(255, 255, 255); font-size: 1.2em;">petnamingco@gmail.com</p>
+            <p style="color: rgb(255, 255, 255); font-size: 1.2em;">petnamingco@Yahoo.com</p>
         </div>
     </div>
-    <div style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px; height: 250px; width: 640px; border: solid #ffffff 4px;">
-        <textarea id="feedback" rows="5" cols="50" onmouseover="TextHover()" onmouseleave="TextUnhover()" placeholder="Let us know your thoughts..."></textarea>
+    <div
+        style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px; height: 250px; width: 640px; border: solid #ffffff 4px;">
+        <textarea id="feedback" rows="5" cols="50" onmouseover="TextHover()" onmouseleave="TextUnhover()"
+            placeholder="Let us know your thoughts..."></textarea>
         <div style="margin: auto;">
             <input type="button" id="button" value="Submit" onclick="Submit()" style="margin-right: 20px;">
             <input type="button" id="button" value="Reset" onclick="Clear()">
@@ -61,4 +64,5 @@
     </div>
 </footer>
 <script src="Pet.js"></script>
+
 </html>

@@ -148,18 +148,33 @@
   color: white;
 }
 #steps {
+  border-radius: 20px;
+  padding: 15px;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
-  color: white;
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 1.2em;
 }
 .step {
-  border: #ffffff 2px solid;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.1em;
+  color: #60656f;
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+.step:hover {
+  transform: scale(1.2);
+  background-color: #60656f;
+  color: #ffffff;
+}
+
 #welcome {
   display: inline-block;
   text-align: left;
@@ -182,7 +197,7 @@
 #st1 {
   text-align: center;
   color: white;
-  margin: 50px;
+  margin: 20px;
   font-size: 1.5em;
 }
 @keyframes work {
@@ -286,7 +301,7 @@
 }
 #dattot {
   position: sticky;
-  z-index: 2;
+  z-index: -1;
   font-size: 50px;
   float: right;
   right: 10%;
@@ -340,4 +355,68 @@
   font-size: 100px;
   width: 400px;
   padding-left: 2%;
+}
+#button {
+  position: relative;
+  top: 35px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #60656f;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+#button:hover {
+  background-color: #60656f;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+#feedback {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #ffffff;
+  border: solid #60656f 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #60656f;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#feedback:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #60656f;
+}
+#feedback:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #60656f;
+}
+#file {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #ffffff;
+  border: solid #60656f 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #60656f;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#file:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #60656f;
+}
+
+::file-selector-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
 }

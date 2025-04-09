@@ -144,8 +144,8 @@
   background-color: #00cbcb;
   text-align: center;
   padding: 10px;
-  margin: 10px;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 #content {
   margin: 10px;

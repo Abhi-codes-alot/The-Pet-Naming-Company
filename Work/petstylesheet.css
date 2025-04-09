@@ -1,0 +1,282 @@
+#head {
+  background-color: #00cbcb;
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0px;
+  border-radius: 30px;
+  position: STICKY;
+}
+#headspan {
+  font-family: "Just Another Hand", serif;
+  align-content: right;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: expanded;
+  transition: font-size 0.5s ease;
+}
+#headspan:hover {
+  font-size: 60px;
+}
+#testspan {
+  display: block;
+  font-family: "Just Another Hand", serif;
+  background-color: #5c6269;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 20px;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: right;
+  border-width: 3px;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+#testspan:hover {
+  background-color: #a9a9a9;
+  color: #5a5a5a;
+  padding: 30px;
+}
+#body {
+  background-color: #5c6269;
+  font-size: 20px;
+  font-family: "Just Another Hand", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+#maint {
+  text-align: center;
+}
+#main {
+  display: inline-block;
+  background-color: #60656f;
+  padding: 30px;
+  border-radius: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+#title {
+  font-size: 50px;
+  font-family: "Just Another Hand", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  width: 100%;
+  white-space: nowrap;
+  padding: 5px;
+  overflow: hidden;
+  text-align: center;
+  animation: typing 2s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.pug img {
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  max-height: 100%;
+  border-radius: 25px;
+  padding: 5px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+.pug img:hover {
+  opacity: 0.5;
+}
+.pug {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 20px;
+  transition: padding 0.3s ease;
+  object-fit: cover;
+  position: relative;
+}
+.pug:hover {
+  padding-bottom: 90px;
+  .tex {
+    opacity: 100%;
+  }
+}
+.bod {
+  margin: 30px;
+  width: 100%;
+  text-align: center;
+}
+.tex {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  color: #008080;
+  text-align: center;
+  color: #60656f;
+  font-size: 30px;
+  opacity: 0%;
+  transition: opacity 0.5s ease;
+}
+#footspan {
+  background-color: #00cbcb;
+  font-family: "Just Another Hand", serif;
+  text-align: center;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+#foot {
+  background-color: #00cbcb;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+}
+#content {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+#steps {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+.step {
+  border: #ffffff 2px solid;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+#welcome {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  font-size: 100px;
+  width: 400px;
+  height: 400px;
+}
+#whatwe {
+  background-color: #00cbcb;
+  margin: 20px;
+  border: #ffffff 4px solid;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}
+#st1 {
+  text-align: center;
+  color: white;
+  margin: 50px;
+  font-size: 1.5em;
+}
+@keyframes work {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.preloader {
+  background-color: #00cbcb;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: lighten;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  animation: holdThenFade 2s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preloader h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: #000000;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 0;
+  animation: typing 5s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes holdThenFade {
+  0% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.preloader img {
+  opacity: 1;
+}
+
+.stepcu {
+  border: #ffffff 2px solid;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #60656f;
+  animation: stepc alternate 1s infinite;
+}
+@keyframes stepc {
+  from {
+    background-color: white;
+    color: #5c6269;
+  }
+  to {
+    background-color: #5c6269;
+    color: white;
+  }
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.icon:hover {
+  background-color: #00cbcb;
+  transform: scale(1.1);
+}

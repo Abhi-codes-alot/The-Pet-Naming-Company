@@ -156,3 +156,35 @@ function validateDataForm(event) {
 document.getElementById("data").addEventListener("submit", function (e) {
   validateDataForm(e);
 });
+function P1show() {
+  var id1=document.getElementById("p1");
+  id1.style="background-color: #008080; color: #ffffff; font-size: 4em; border-radius: 25px; border: #ffffff 4px solid; margin: 20px; padding: 15px; padding-left: 90px; padding-right: 90px;";
+  var type=document.getElementById("type");
+  type.innerHTML="Dog";
+  var breed=document.getElementById("breed");
+  breed.innerHTML="German Shepherd";
+  var status=document.getElementById("status");
+  status.innerHTML="Unnamed";
+  var name=document.getElementById("name");
+  name.innerHTML="Karl";
+  var img=document.getElementById("image");
+  img.innerHTML="<img src='Breeds/german.webp' style='object-fit: cover; width: 100%; height: 100%; border-radius: 25px;'>";
+  var id2=document.getElementById("p2");
+  id2.style="  display: inline-block; font-size: 4em; margin: 10px;";
+}
+function P2show() {
+  var id2=document.getElementById("p2");
+  id2.style="background-color: #008080; color: #ffffff; font-size: 4em; border-radius: 25px; border: #ffffff 4px solid; margin: 20px; padding: 15px; padding-left: 90px; padding-right: 90px;";
+  var type=document.getElementById("type");
+  type.innerHTML="Cat";
+  var breed=document.getElementById("breed");
+  breed.innerHTML="Main coon";
+  var status=document.getElementById("status");
+  status.innerHTML="Named";
+  var name=document.getElementById("name");
+  name.innerHTML="-------";
+  var img=document.getElementById("image");
+  img.innerHTML="<img src='Breeds/main.jpg' style='object-fit: cover; width: 100%; height: 100%; border-radius: 25px;'>";
+  var id1=document.getElementById("p1");
+  id1.style="  display: inline-block; font-size: 4em; margin: 10px;";
+}

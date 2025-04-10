@@ -517,9 +517,29 @@
   display: inline-block;
   font-size: 4em;
   margin: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease;
+}
+#p1:hover {
+  background-color: #00cbcb;
+  color: #ffffff;
+  border-radius: 25px;
+  border: #ffffff 4px solid;
+  padding: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 #p2 {
   display: inline-block;
   font-size: 4em;
   margin: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease;
+}
+#p2:hover {
+  background-color: #00cbcb;
+  color: #ffffff;
+  border-radius: 25px;
+  border: #ffffff 4px solid;
+  padding: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
 }

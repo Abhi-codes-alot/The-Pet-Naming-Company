@@ -26,10 +26,10 @@ function TextUnhover() {
 function Step1() {
   var steps = document.getElementsByClassName("step");
   steps[0].style.backgroundColor = "#008080";
-  steps[1].style.backgroundColor = "#ffffff";
-  steps[2].style.backgroundColor = "#ffffff";
-  steps[3].style.backgroundColor = "#ffffff";
-  steps[4].style.backgroundColor = "#ffffff";
+  steps[1].style.backgroundColor = "#00cbcb";
+  steps[2].style.backgroundColor = "#00cbcb";
+  steps[3].style.backgroundColor = "#00cbcb";
+  steps[4].style.backgroundColor = "#00cbcb";
   var info = document.getElementById("target");
   info.style =
     "background-color: #60656f; border-radius: 20px; border: #ffffff 4px solid; margin: 20px; padding: 15px;";
@@ -38,11 +38,11 @@ function Step1() {
 }
 function Step2() {
   var steps = document.getElementsByClassName("step");
-  steps[0].style.backgroundColor = "#ffffff";
+  steps[0].style.backgroundColor = "#00cbcb";
   steps[1].style.backgroundColor = "#008080";
-  steps[2].style.backgroundColor = "#ffffff";
-  steps[3].style.backgroundColor = "#ffffff";
-  steps[4].style.backgroundColor = "#ffffff";
+  steps[2].style.backgroundColor = "#00cbcb";
+  steps[3].style.backgroundColor = "#00cbcb";
+  steps[4].style.backgroundColor = "#00cbcb";
   var info = document.getElementById("target");
   info.style =
     "background-color: #60656f; border-radius: 20px; border: #ffffff 4px solid; margin: 20px; padding: 15px;";
@@ -51,11 +51,11 @@ function Step2() {
 }
 function Step3() {
   var steps = document.getElementsByClassName("step");
-  steps[0].style.backgroundColor = "#ffffff";
-  steps[1].style.backgroundColor = "#ffffff";
+  steps[0].style.backgroundColor = "#00cbcb";
+  steps[1].style.backgroundColor = "#00cbcb";
   steps[2].style.backgroundColor = "#008080";
-  steps[3].style.backgroundColor = "#ffffff";
-  steps[4].style.backgroundColor = "#ffffff";
+  steps[3].style.backgroundColor = "#00cbcb";
+  steps[4].style.backgroundColor = "#00cbcb";
   var info = document.getElementById("target");
   info.style =
     "background-color: #60656f; border-radius: 20px; border: #ffffff 4px solid; margin: 20px; padding: 15px;";
@@ -64,11 +64,11 @@ function Step3() {
 }
 function Step4() {
   var steps = document.getElementsByClassName("step");
-  steps[0].style.backgroundColor = "#ffffff";
-  steps[1].style.backgroundColor = "#ffffff";
-  steps[2].style.backgroundColor = "#ffffff";
+  steps[0].style.backgroundColor = "#00cbcb";
+  steps[1].style.backgroundColor = "#00cbcb";
+  steps[2].style.backgroundColor = "#00cbcb";
   steps[3].style.backgroundColor = "#008080";
-  steps[4].style.backgroundColor = "#ffffff";
+  steps[4].style.backgroundColor = "#00cbcb";
   var info = document.getElementById("target");
   info.style =
     "background-color: #60656f; border-radius: 20px; border: #ffffff 4px solid; margin: 20px; padding: 15px;";
@@ -77,16 +77,16 @@ function Step4() {
 }
 function Finish() {
   var steps = document.getElementsByClassName("step");
-  steps[0].style.backgroundColor = "#ffffff";
-  steps[1].style.backgroundColor = "#ffffff";
-  steps[2].style.backgroundColor = "#ffffff";
-  steps[3].style.backgroundColor = "#ffffff";
+  steps[0].style.backgroundColor = "#00cbcb";
+  steps[1].style.backgroundColor = "#00cbcb";
+  steps[2].style.backgroundColor = "#00cbcb";
+  steps[3].style.backgroundColor = "#00cbcb";
   steps[4].style.backgroundColor = "#008080";
   var info = document.getElementById("target");
   info.style =
     "background-color: #60656f; border-radius: 20px; border: #ffffff 4px solid; margin: 20px; padding: 15px;";
   info.innerHTML =
-    "<h1 style='margin:5px; font-size:50px;color: #00cbcb;'>Thank You</h1><p style='font-size: 1.4em; margin:5px; color: #ffffff;'>Now that we have the details, out experts will review it and forge the perfect name for your PET</p>";
+    "<h1 style='margin:5px; font-size:50px;color: #00cbcb;'>Thank You</h1><p style='font-size: 1.4em; margin:5px; color: #ffffff;'>Now that we have the details, out experts will review them and forge the perfect name for your PET</p>";
 }
 function handleFileUpload(event) {
   var input = event.target;

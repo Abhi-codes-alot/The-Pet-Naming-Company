@@ -420,3 +420,87 @@
   font-family: "Just Another Hand", serif;
   font-size: 1.2em;
 }
+#username {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #5c6269;
+  border: solid #ffffff 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#username:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#username:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#email {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #5c6269;
+  border: solid #ffffff 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#email:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#email:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#password {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #5c6269;
+  border: solid #ffffff 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#password:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#password:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#confirm {
+  display: block;
+  margin: auto;
+  resize: none;
+  background-color: #5c6269;
+  border: solid #ffffff 4px;
+  font-family: "Just Another Hand", serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  top: 20px;
+  border-radius: 10px;
+  transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+#confirm:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#confirm:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #ffffff;
+}

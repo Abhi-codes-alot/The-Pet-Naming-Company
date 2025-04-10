@@ -98,3 +98,61 @@ function handleFileUpload(event) {
   };
   reader.readAsDataURL(input.files[0]);
 }
+function checkFileInput(event) {
+  const fileInput = document.getElementById("file");
+  if (!fileInput.files || fileInput.files.length === 0) {
+    event.preventDefault(); // Prevent form submission
+    alert("Please select a file before submitting.");
+    return false;
+  } else {
+    console.log("File selected:", fileInput.files[0].name);
+    return true;
+  }
+}
+
+document.getElementById("myform").addEventListener("submit", function (e) {
+  checkFileInput(e);
+});
+function validateDataForm(event) {
+  const username = document.getElementById("username").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirm").value;
+
+  const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+  const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+
+  if (username === "") {
+    alert("Username cannot be empty.");
+    event.preventDefault();
+    return false;
+  }
+
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    event.preventDefault();
+    return false;
+  }
+
+  if (!passwordPattern.test(password)) {
+    alert(
+      "Password must be at least 8 characters long, contain one uppercase letter, one lowercase letter, and one digit."
+    );
+    event.preventDefault();
+    return false;
+  }
+
+  if (password !== confirmPassword) {
+    alert("Passwords do not match.");
+    event.preventDefault();
+    return false;
+  }
+
+  // Optional: console log or further handling
+  console.log("All inputs valid.");
+  return true;
+}
+
+document.getElementById("data").addEventListener("submit", function (e) {
+  validateDataForm(e);
+});

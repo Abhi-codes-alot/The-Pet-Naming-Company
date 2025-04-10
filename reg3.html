@@ -48,7 +48,7 @@
         Tell us about it<br>
     </div>
     <div style="text-align: center;">
-        <form action="reg4.html">
+        <form action="reg4.html" id="myform">
             <div
                 style="display: inline-block; background-color: #00cbcb; border-radius: 20px; margin: 20px;height:680px; width: 640px; border: solid #ffffff 4px;">
                 <h1 style="margin: 10px;color:#ffffff">Distinct Physical Features :</h1>
@@ -63,8 +63,8 @@
                 <h1 style="margin: 10px;color:#ffffff">Upload Images or Videos in a Zip file :</h1>
                 <input type="file" id="file" accept=".zip" onchange="handleFileUpload(event)">
                 <div style="margin: auto;">
-                    <input type="submit" id="button" value="Submit" onclick="Submit1()" style="margin-right: 20px;">
-                    <input type="button" id="button" value="Reset" onclick="Clear()">
+                    <input type="submit" id="button" value="Submit" style="margin-right: 20px;">
+                    <input type="reset" id="button">
                 </div>
             </div>
         </form>
